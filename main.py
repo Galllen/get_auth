@@ -1,9 +1,10 @@
 from telethon import TelegramClient
 import os
 
-api_id = int(os.getenv("25046118"))
-api_hash = os.getenv("860190cb259f0617c63384685da484b")
-phone = os.getenv("+79895741790")
+# ИМЕНА переменных окружения, а не значения
+api_id = int(os.getenv("API_ID"))
+api_hash = os.getenv("API_HASH")
+phone = os.getenv("TG_PHONE")
 
 session_path = "tech.session"  # итоговый .session файл
 
